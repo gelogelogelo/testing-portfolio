@@ -14,7 +14,7 @@
   background-size: cover;
 }
 .home_name {
-  font-size: 5rem;
+  font-size: 3rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid #fff;
@@ -311,6 +311,9 @@
   .nav .menu-nav_link {
     font-size: 1.5rem;
   }
+  .home_name {
+    font-size: 5rem;
+  }
   .about_bio {
     font-size: 1.5rem;
   }
@@ -340,6 +343,9 @@
   .about .jobs {
     grid-template-columns: repeat(3, 1fr);
   }
+  .home_name {
+    font-size: 5rem;
+  }
 }
 @media screen and (min-width: 1600px) {
   .projects_bio-image {
@@ -347,6 +353,9 @@
   }
   .about .jobs {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .home_name {
+    font-size: 5rem;
   }
 }
 body {
